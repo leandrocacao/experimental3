@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2519bc8b7ccbbe9e1dbdcd46af5311c1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2519bc8b7ccbbe9e1dbdcd46af5311c1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2519bc8b7ccbbe9e1dbdcd46af5311c1 = L.map(
+                "map_2519bc8b7ccbbe9e1dbdcd46af5311c1",
+                {
+                    center: [-1.62379848, -79.45982847],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_695d6998b64c0c276830e195c4b7c988 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_695d6998b64c0c276830e195c4b7c988.addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+            var marker_65ae0667329b54e6d4de3fd9c110d6b8 = L.marker(
+                [-0.22985, -78.52495],
+                {}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+        var popup_f14fdb035fbabe60d99873860661e487 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddb04c768f04ffdc48ccce3a85bca885 = $(`<div id="html_ddb04c768f04ffdc48ccce3a85bca885" style="width: 100.0%; height: 100.0%;">Quito<br>Latitud: -0.22985<br>Longitud: -78.52495</div>`)[0];
+                popup_f14fdb035fbabe60d99873860661e487.setContent(html_ddb04c768f04ffdc48ccce3a85bca885);
+            
+        
+
+        marker_65ae0667329b54e6d4de3fd9c110d6b8.bindPopup(popup_f14fdb035fbabe60d99873860661e487)
+        ;
+
+        
+    
+    
+            var marker_05dd51852435d4106ebd566642d4b3bf = L.marker(
+                [-2.19616, -79.88621],
+                {}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+        var popup_ef0367915b02720e46c007d943daf575 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_501e54b59ff8261704e22abb8f4e75b4 = $(`<div id="html_501e54b59ff8261704e22abb8f4e75b4" style="width: 100.0%; height: 100.0%;">Guayaquil<br>Latitud: -2.19616<br>Longitud: -79.88621</div>`)[0];
+                popup_ef0367915b02720e46c007d943daf575.setContent(html_501e54b59ff8261704e22abb8f4e75b4);
+            
+        
+
+        marker_05dd51852435d4106ebd566642d4b3bf.bindPopup(popup_ef0367915b02720e46c007d943daf575)
+        ;
+
+        
+    
+    
+            var marker_01382093ff556f585b8f12e3186c5c16 = L.marker(
+                [-2.89908, -79.01086],
+                {}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+        var popup_f073367ade7af762cb2ab0b9e48b841b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_978737fac0532b27b3e657634fac1b16 = $(`<div id="html_978737fac0532b27b3e657634fac1b16" style="width: 100.0%; height: 100.0%;">Cuenca<br>Latitud: -2.89908<br>Longitud: -79.01086</div>`)[0];
+                popup_f073367ade7af762cb2ab0b9e48b841b.setContent(html_978737fac0532b27b3e657634fac1b16);
+            
+        
+
+        marker_01382093ff556f585b8f12e3186c5c16.bindPopup(popup_f073367ade7af762cb2ab0b9e48b841b)
+        ;
+
+        
+    
+    
+            var marker_8e8213cfb8ad23b7daa7acc08914de29 = L.marker(
+                [-3.99313, -79.20422],
+                {}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+        var popup_75d9393ce627aacdbab83e60382e5cbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58f70095fafb6d7f37216104641a74b9 = $(`<div id="html_58f70095fafb6d7f37216104641a74b9" style="width: 100.0%; height: 100.0%;">Loja<br>Latitud: -3.99313<br>Longitud: -79.20422</div>`)[0];
+                popup_75d9393ce627aacdbab83e60382e5cbf.setContent(html_58f70095fafb6d7f37216104641a74b9);
+            
+        
+
+        marker_8e8213cfb8ad23b7daa7acc08914de29.bindPopup(popup_75d9393ce627aacdbab83e60382e5cbf)
+        ;
+
+        
+    
+    
+            var marker_e25b3330aa118d3492eaf076060f0e88 = L.marker(
+                [-3.25861, -79.96053],
+                {}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+        var popup_d9bb029f6dc64818f45eb31cb16c8da4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbac548e1e98b44f394ecc5320fc94ee = $(`<div id="html_dbac548e1e98b44f394ecc5320fc94ee" style="width: 100.0%; height: 100.0%;">Machala<br>Latitud: -3.25861<br>Longitud: -79.96053</div>`)[0];
+                popup_d9bb029f6dc64818f45eb31cb16c8da4.setContent(html_dbac548e1e98b44f394ecc5320fc94ee);
+            
+        
+
+        marker_e25b3330aa118d3492eaf076060f0e88.bindPopup(popup_d9bb029f6dc64818f45eb31cb16c8da4)
+        ;
+
+        
+    
+    
+            var marker_45e7723d7034c776d01a6d6f9411fbac = L.marker(
+                [-0.94937, -80.73137],
+                {}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+        var popup_da9ef7cc7d6a727b17274590aa957a96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04a095110f12390726a2c78549734651 = $(`<div id="html_04a095110f12390726a2c78549734651" style="width: 100.0%; height: 100.0%;">Manta<br>Latitud: -0.94937<br>Longitud: -80.73137</div>`)[0];
+                popup_da9ef7cc7d6a727b17274590aa957a96.setContent(html_04a095110f12390726a2c78549734651);
+            
+        
+
+        marker_45e7723d7034c776d01a6d6f9411fbac.bindPopup(popup_da9ef7cc7d6a727b17274590aa957a96)
+        ;
+
+        
+    
+    
+            var marker_75c10e89db79b508f31d41b1ef437af5 = L.marker(
+                [-2.1688548, -79.8340647],
+                {}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+        var popup_631864467849cc6f6ccbb0eb3736c7a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0f570ae399e2ecb579e5044ca958e6a = $(`<div id="html_d0f570ae399e2ecb579e5044ca958e6a" style="width: 100.0%; height: 100.0%;">Durán<br>Latitud: -2.1688548<br>Longitud: -79.8340647</div>`)[0];
+                popup_631864467849cc6f6ccbb0eb3736c7a2.setContent(html_d0f570ae399e2ecb579e5044ca958e6a);
+            
+        
+
+        marker_75c10e89db79b508f31d41b1ef437af5.bindPopup(popup_631864467849cc6f6ccbb0eb3736c7a2)
+        ;
+
+        
+    
+    
+            var marker_347528443823a8d0ca6874c9ecc52d50 = L.marker(
+                [0.9592, -79.65397],
+                {}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+        var popup_071458c7b8fc234a8d727bf8cf736d50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cdc6247417d3038c85d81bee2e6a5a9 = $(`<div id="html_9cdc6247417d3038c85d81bee2e6a5a9" style="width: 100.0%; height: 100.0%;">Esmeraldas<br>Latitud: 0.9592<br>Longitud: -79.65397</div>`)[0];
+                popup_071458c7b8fc234a8d727bf8cf736d50.setContent(html_9cdc6247417d3038c85d81bee2e6a5a9);
+            
+        
+
+        marker_347528443823a8d0ca6874c9ecc52d50.bindPopup(popup_071458c7b8fc234a8d727bf8cf736d50)
+        ;
+
+        
+    
+    
+            var marker_ce0ae4d33bfb4e2076b1bb779ebf89f2 = L.marker(
+                [-1.24908, -78.61675],
+                {}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+        var popup_1bece7e88962fd1b651588bed49d25ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57f7d5cf8145aa25942dce704ef153f3 = $(`<div id="html_57f7d5cf8145aa25942dce704ef153f3" style="width: 100.0%; height: 100.0%;">Ambato<br>Latitud: -1.24908<br>Longitud: -78.61675</div>`)[0];
+                popup_1bece7e88962fd1b651588bed49d25ba.setContent(html_57f7d5cf8145aa25942dce704ef153f3);
+            
+        
+
+        marker_ce0ae4d33bfb4e2076b1bb779ebf89f2.bindPopup(popup_1bece7e88962fd1b651588bed49d25ba)
+        ;
+
+        
+    
+    
+            var marker_6667ef569c575d85907cd2eac5ad04b7 = L.marker(
+                [-0.25305, -79.17536],
+                {}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+    
+        var popup_8c90675a83e6f7703c87ec1495a04972 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70e5fae47de24c04330d3282cf945306 = $(`<div id="html_70e5fae47de24c04330d3282cf945306" style="width: 100.0%; height: 100.0%;">Santo Domingo<br>Latitud: -0.25305<br>Longitud: -79.17536</div>`)[0];
+                popup_8c90675a83e6f7703c87ec1495a04972.setContent(html_70e5fae47de24c04330d3282cf945306);
+            
+        
+
+        marker_6667ef569c575d85907cd2eac5ad04b7.bindPopup(popup_8c90675a83e6f7703c87ec1495a04972)
+        ;
+
+        
+    
+    
+            var poly_line_47cef49c8ef46574bbe3e26a2640418c = L.polyline(
+                [[-0.22985, -78.52495], [-0.25305, -79.17536], [0.9592, -79.65397], [-0.94937, -80.73137], [-2.1688548, -79.8340647], [-2.19616, -79.88621], [-3.25861, -79.96053], [-3.99313, -79.20422], [-2.89908, -79.01086], [-1.24908, -78.61675], [-0.22985, -78.52495]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_2519bc8b7ccbbe9e1dbdcd46af5311c1);
+        
+</script>
+</html>
